@@ -1,0 +1,17 @@
+// script.js
+
+document.addEventListener("DOMContentLoaded", () => {
+    const fadeInSections = document.querySelectorAll(".fade-in");
+
+    const handleScroll = () => {
+        fadeInSections.forEach((section) => {
+            const rect = section.getBoundingClientRect();
+            if (rect.top < window.innerHeight) {
+                section.classList.add("visible");
+            }
+        });
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    handleScroll(); // Trigger animation on page load
+});

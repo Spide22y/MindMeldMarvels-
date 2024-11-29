@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mind Meld Marvels - Poultry AI & Waste2Gold</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Mind Meld Marvels</h1>
+            <h2>Poultry AI & Waste2Gold</h2>
+            <p>A smarter, greener future for poultry farming.</p>
+        </div>
+        <img src="hero-image.jpg" alt="Farming and AI" class="hero-image">
+    </header>
+    
+    <main>
+        <section id="about" class="fade-in">
+            <h2>About the Project</h2>
+            <p>Our project aims to revolutionize poultry farming by combining AI-powered solutions and sustainable waste management techniques. Farmers will benefit from advanced tools, better productivity, and eco-friendly practices.</p>
+        </section>
+        
+        <section id="survey" class="fade-in">
+            <h2>Take the Survey</h2>
+            <p>Your feedback helps us create practical and impactful solutions for poultry farming.</p>
+            <div class="qr-container">
+                <img src="qr-code.png" alt="Scan to access the survey" class="qr-code">
+            </div>
+            <a href="https://forms.gle/your-survey-link" target="_blank" class="btn">Start the Survey</a>
+        </section>
+    </main>
+    
+    <footer>
+        <div class="social-links">
+            <a href="#" target="_blank">Twitter</a>
+            <a href="#" target="_blank">Facebook</a>
+            <a href="#" target="_blank">LinkedIn</a>
+        </div>
+        <p>&copy; 2024 Mind Meld Marvels. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
